@@ -1,5 +1,4 @@
 import "./App.css";
-// import Button from "@mui/material/Button";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -9,9 +8,6 @@ import { useContext } from "react";
 import JobDetail from "./pages/JobDetail";
 import AuthContext from "./authen/AuthContext";
 import DetailListModal from "./components/DetailListModal";
-
-// import SearchAppBar from './components/SearchAppBar';
-// import Home from './pages/Home';
 
 function App() {
   const location = useLocation();
